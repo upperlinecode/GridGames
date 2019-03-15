@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  /* Style rows and columns */
+}
+
+#title {
+  grid-column: /*this should span the entire page, look into using negative numbers in grid-column-end*/;
+}
+
+.friend {
+
+}
+
+/* Style other types of family members below*/
