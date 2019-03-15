@@ -1,33 +1,26 @@
 .container {
   display: grid;
-  height: 500px;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 50px 40px auto 50px;
+
 }
 
 #navbar {
-  grid-column: span 5;
-  grid-row: span 1;
+
 }
 
 #sidebar {
   writing-mode: vertical-rl;
-  grid-column: span 1;
-  grid-row: span 2;
+
 }
 
 #title {
-  grid-column: span 4;
-  grid-row: span 1;
+
 }
 
 
 #content {
-  grid-column: span 4;
-  grid-row: span 1;
+
 }
 
 #footer {
-  grid-column: span 5;
-  grid-row: span 1;
+
 }
