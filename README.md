@@ -14,7 +14,7 @@ This [link](https://css-tricks.com/snippets/css/complete-guide-grid/) might be h
 
 For level one you'll be working in the level_one.css file to style the level_one.html file. For this first layout you'll want to focus on **grid-template-columns** and **grid-template-rows**. The end goal for this level is a simple row (with a height of 100px) with four columns (each with a width of 50px).
 
-![](level_one.png)
+![](https://raw.githubusercontent.com/upperlinecode/GridGames/master/level_one.png)
 
 #### Level 2
 
@@ -33,7 +33,7 @@ grid-template-rows: repeat(10, 10px)
 
 These grids have been looking great, but you may have noticed that all of our columns across rows up until this point have been equally sized. While this type of styling might be useful for something like a table, it's not very interesting visually. Here's a sneak peak and what you'll be moving towards:
 
-![](level_three_items.png)
+![](https://raw.githubusercontent.com/upperlinecode/GridGames/master/level_three_items.png)
 
 Let's switch it up by using the **grid-column-start** and **grid-column-end** properties. When designing these kinds of grid layouts you'll complete two steps:
 
@@ -42,11 +42,11 @@ Let's switch it up by using the **grid-column-start** and **grid-column-end** pr
 
 First, style your container in level_three.css to build a grid with three columns that are each 1 fraction of the page and two rows that are each 100px tall.
 
-![](level_three_grid.png)
+![](https://raw.githubusercontent.com/upperlinecode/GridGames/master/level_three_grid.png)
 
 Next, we'll style each individual element. Use the **grid-column-start** and **grid-column-end** properties to copy the grid you see below. The larger blocks are spanning two columns from the original grid you created above and the smaller are spanning only one.
 
-![](level_three_items.png)
+![](https://raw.githubusercontent.com/upperlinecode/GridGames/master/level_three_items.png)
 
 #### Level 4
 
@@ -61,9 +61,9 @@ Or the shorthand properties:
 with any of the acceptable value types.
 Check out the help link at the top for detailed information on both types of syntax.
 
-![](level_four_grid.png)
+![](https://raw.githubusercontent.com/upperlinecode/GridGames/master/level_four_grid.png)
 
-![](level_four_items.png)
+![](https://raw.githubusercontent.com/upperlinecode/GridGames/master/level_four_items.png)
 
 #### Level 5
 
